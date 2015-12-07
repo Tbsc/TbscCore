@@ -1,0 +1,18 @@
+[
+{
+  "modid": "TbscCore",
+  "name": "TbscCore",
+  "description": "Since I make lots of mods (a lot of them don't get released), I often use the same code over and over,
+  and instead of redoing it for every freaking mod, I'm just going to put it in this core mod! (Note: this isn't a forge
+  coremod, just a mod that is the core of my other mods :P)",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Tbsc"],
+  "credits": "Me? yeah *TBSC*Core",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
