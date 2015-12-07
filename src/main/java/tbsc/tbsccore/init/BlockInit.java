@@ -20,7 +20,7 @@ public class BlockInit {
         return registeredBlocks.get(name);
     }
 
-    private static void addBlock(Block block, String name) {
+    protected static void addBlock(Block block, String name) {
         registeredBlocks.put(name, block);
         GameRegistry.registerBlock(block, name);
     }

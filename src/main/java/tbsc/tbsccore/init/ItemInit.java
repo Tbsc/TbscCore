@@ -20,7 +20,7 @@ public class ItemInit {
         return registeredItems.get(name);
     }
 
-    private static void addItem(Item item, String name) {
+    protected static void addItem(Item item, String name) {
         registeredItems.put(name, item);
         GameRegistry.registerItem(item, name);
     }
